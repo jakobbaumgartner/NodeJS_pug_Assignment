@@ -1,0 +1,12 @@
+extends layout.pug
+
+block subject
+	ul
+		each name in names
+			li=name
+		else
+			li No names.
+
+	a(href="/") Back.
+
+			

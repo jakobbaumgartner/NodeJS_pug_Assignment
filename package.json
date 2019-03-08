@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_pug_assignment",
+  "version": "1.0.0",
+  "description": "Lection assignment.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakobbaumgartner/NodeJS_pug_Assignment.git"
+  },
+  "author": "Jakob B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakobbaumgartner/NodeJS_pug_Assignment/issues"
+  },
+  "homepage": "https://github.com/jakobbaumgartner/NodeJS_pug_Assignment#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3"
+  }
+}
